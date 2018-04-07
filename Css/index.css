@@ -58,6 +58,9 @@ body{
 .margin{
     margin-right: 50vh;
 }
+nav{
+    margin-top: 10%;
+}
 .showcase{
     color: white;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
