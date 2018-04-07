@@ -87,4 +87,8 @@ nav{
     nav{
         background-color: black;
     }
+
+    #name{
+        font-size: 4vh;
+    }
 }
