@@ -82,22 +82,22 @@ h4{
 nav{
     background-color: transparent;
 }
-@media (max-width:320px)  {
+/*@media (max-width:320px)  {*/
 
-    nav{
-        background-color: black;
-    }
+    /*nav{*/
+        /*background-color: black;*/
+    /*}*/
 
-    #name{
-        font-size: 4vh;
-    }
-}
-@media (min-width:480px) {
-    nav{
-        background-color: black;
-    }
+    /*#name{*/
+        /*font-size: 4vh;*/
+    /*}*/
+/*}*/
+/*@media (min-width:480px) {*/
+    /*nav{*/
+        /*background-color: black;*/
+    /*}*/
 
-    #name{
-        font-size: 100vh;
-    }
-}
+    /*#name{*/
+        /*font-size: 100vh;*/
+    /*}*/
+/*}*/
