@@ -18,6 +18,9 @@ body{
 .text{
     position: relative;
 }
+nav{
+    z-index: 3;
+}
 .custom-toggler.navbar-toggler {
     border-color: #fed136;
 }
@@ -59,9 +62,6 @@ body{
 .margin{
     margin-right: 50vh;
 }
-nav{
-    z-index: 3;
-}
 .showcase{
     color: white;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -79,9 +79,9 @@ h4{
 .white{
     color: white !important;
 }
-@media(max-width:800px)
-{
-    #d1{
-        background-color:darkorange;
+@media (min-width:320px)  {
+
+    nav{
+        background-color: black;
     }
 }
