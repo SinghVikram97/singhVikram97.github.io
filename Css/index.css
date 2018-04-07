@@ -59,7 +59,7 @@ body{
     margin-right: 50vh;
 }
 nav{
-    margin-top: 10%;
+    z-index: 3;
 }
 .showcase{
     color: white;
