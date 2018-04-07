@@ -22,4 +22,19 @@ $(document).ready(function () {
         .deleteChars(9)
         .typeString('Tech Geek !')
         .start()
+
+    let name=$("#name");
+    name.hover(function () {
+        name.toggleClass('tada');
+    });
+
+    let cv=$("#cv");
+    cv.hover(function () {
+        cv.toggleClass('pulse');
+    });
+
+    let resume=$("#resume");
+    cv.hover(function () {
+        cv.toggleClass('shakeg');
+    })
 });
