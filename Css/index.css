@@ -13,6 +13,7 @@ html{
 body{
     overflow-x: hidden;
     width: 100%;
+    padding-top: 80px !important;
 }
 .text{
     position: relative;
