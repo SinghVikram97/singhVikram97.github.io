@@ -36,5 +36,12 @@ $(document).ready(function () {
     let resume=$("#resume");
     cv.hover(function () {
         cv.toggleClass('shakeg');
-    })
+    });
+
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+
+
+
 });
